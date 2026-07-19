@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Educourse.id | SOP Digital Learning Center</title>
+    <meta
+      name="description"
+      content="Portal SOP Digital Administrasi Pemasaran terintegrasi untuk Educourse.id Cabang Bandung."
+    />
+
+    <link rel="icon" type="image/png" href="img/icon1.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icon1.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icon1.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icon1.png" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+
+    <header class="topbar">
+      <a
+        class="brand"
+        href="#dashboard"
+        aria-label="Educourse.id SOP Digital Learning Center"
+      >
+        <img class="brand-mark" src="img/logo.png" alt="Educourse.id" />
+        <span>
+          <small>SOP Digital Learning Center</small>
+        </span>
+      </a>
+
+      <button
+        class="menu-button"
+        id="menuButton"
+        type="button"
+        aria-label="Buka navigasi"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="mainNav">
+        <a href="#dashboard">Dashboard</a>
+        <a href="#sop-catalog">SOP</a>
+        <a href="#document-control">Kontrol Dokumen</a>
+        <a href="#knowledge-base">Resources</a>
+      </nav>
+    </header>
+
+    <main id="app" class="app-shell">
+      <section id="dashboard" class="panel hero-panel">
+        <div class="hero-copy">
+          <div class="eyebrow">
+            Perancangan Sistem SOP Digital Administrasi Pemasaran
+          </div>
+          <h1>SOP Learing Center educourse.id Branch Bandung</h1>
+          <p>
+            Portal ini dirancang sebagai pusat pembelajaran SOP Digital Learning
+            Center yang menghubungkan dokumen, flowchart prosedur, pelatihan
+            internal, dan sumber daya administrasi pemasaran dalam satu
+            pengalaman yang mudah dipakai oleh staf non-teknis.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#sop-catalog">Lihat SOP Utama</a>
+            <a class="button secondary" href="#knowledge-base"
+              >Buka Knowledge Base</a
+            >
+          </div>
+
+          <div class="hero-meta">
+            <div>
+              <span>Fokus</span>
+              <strong>Administrasi Pemasaran Terintegrasi</strong>
+            </div>
+            <div>
+              <span>Lokasi Implementasi</span>
+              <strong>Educourse.id Cabang Bandung</strong>
+            </div>
+            <div>
+              <span>Target</span>
+              <strong>Learning Center + SOP Management Foundation</strong>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-card spotlight-card">
+          <div class="card-heading">
+            <span class="card-kicker">Announcement</span>
+            <h2>Update terbaru SOP</h2>
+          </div>
+          <p>
+            Versi awal portal menampilkan alur digitalisasi SOP, template form,
+            dan pengendalian dokumen untuk mendukung sosialisasi internal dan
+            onboarding staf pemasaran.
+          </p>
+          <ul class="check-list">
+            <li>SOP utama sudah dipetakan sebagai halaman khusus.</li>
+            <li>
+              Flowchart interaktif memuat langkah, penanggung jawab, dan output.
+            </li>
+            <li>
+              Dokumentasi sosialisasi dan materi pelatihan tersedia di portal.
+            </li>
+          </ul>
+        </aside>
+      </section>
+
+  <section
+  class="panel stats-panel"
+  aria-label="Statistik implementasi SOP"
+>
+  <article>
+    <strong>5</strong>
+    <span>SOP</span>
+  </article>
+  <article>
+    <strong>6</strong>
+    <span>Quick access tools</span>
+  </article>
+</section>
+      <section id="sop-catalog" class="panel section-block">
+        <div class="section-head">
+          <div>
+            <span class="section-label">SOP Navigator</span>
+            <h2>Menu navigasi ke SOP utama</h2>
+          </div>
+          <p>
+            Setiap SOP tersedia sebagai halaman khusus dengan ringkasan,
+            metadata dokumen, flowchart interaktif, template, FAQ,
+            troubleshooting, dan kontak PIC.
+          </p>
+        </div>
+        <div id="sopCatalog" class="catalog-grid"></div>
+      </section>
+
+      <section class="panel quick-access-panel">
+        <div class="section-head compact">
+          <div>
+            <span class="section-label">Quick Access</span>
+            <h2>Akses cepat ke instrumen operasional</h2>
+          </div>
+          <p>
+            Shortcut untuk dokumen dan dashboard yang paling sering dipakai
+            dalam operasional pemasaran.
+          </p>
+        </div>
+        <div id="quickAccessGrid" class="resource-grid"></div>
+      </section>
+
+      <section class="panel documentation-panel">
+        <div class="section-head compact">
+          <div>
+            <span class="section-label">Dokumentasi Implementasi</span>
+            <h2>Sosialisasi dan pelatihan SOP</h2>
+          </div>
+          <p>
+            Ruang untuk dokumentasi workshop, notulen pelatihan, dan bukti
+            adopsi prosedur.
+          </p>
+        </div>
+        <div class="timeline-grid">
+          <article class="timeline-card">
+            <span>01</span>
+            <h3>Workshop pengenalan SOP</h3>
+            <p>
+              Materi penjelasan alur kerja digital, tujuan implementasi, dan
+              dampaknya pada administrasi pemasaran.
+            </p>
+          </article>
+          <article class="timeline-card">
+            <span>02</span>
+            <h3>Pelatihan penggunaan template</h3>
+            <p>
+              Simulasi pengisian form, upload bukti, dan pemanfaatan folder
+              arsip digital terstruktur.
+            </p>
+          </article>
+          <article class="timeline-card">
+            <span>03</span>
+            <h3>Uji coba SOP dan umpan balik</h3>
+            <p>
+              Evaluasi user experience, validasi alur approval, dan daftar
+              perbaikan sebelum finalisasi.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="document-control" class="panel section-block">
+        <div class="section-head">
+          <div>
+            <span class="section-label">Document Governance</span>
+            <h2>Fitur pengendalian dokumen</h2>
+          </div>
+          <p>
+            Portal menampilkan konsep revision history, changelog, version
+            control, dan metadata untuk membantu pembelajaran pengelolaan
+            dokumen yang tertib.
+          </p>
+        </div>
+        <div class="governance-grid">
+          <article class="governance-card">
+            <h3>Version Control</h3>
+            <div class="status-tags">
+              <span>Draft</span>
+              <span>Review</span>
+              <span>Final</span>
+              <span>Signed</span>
+            </div>
+            <p>
+              Setiap dokumen SOP dapat mengikuti status rilis yang jelas agar
+              mudah dilacak oleh tim administratif.
+            </p>
+          </article>
+          <article class="governance-card">
+            <h3>Metadata Dokumen</h3>
+            <ul class="info-list">
+              <li><strong>Nomor Dokumen:</strong> format unik per SOP</li>
+              <li>
+                <strong>Tanggal Terbit:</strong> saat versi final dipublikasikan
+              </li>
+              <li><strong>Tanggal Revisi:</strong> rekam perubahan terakhir</li>
+              <li>
+                <strong>Penanggung Jawab:</strong> PIC administrasi pemasaran
+              </li>
+            </ul>
+          </article>
+          <article class="governance-card">
+            <h3>Revision History</h3>
+            <div class="mini-timeline">
+              <div>
+                <span>v0.1</span>
+                <p>Draft awal untuk validasi internal.</p>
+              </div>
+              <div>
+                <span>v0.5</span>
+                <p>Review dengan perbaikan alur dan form.</p>
+              </div>
+              <div>
+                <span>v1.0</span>
+                <p>Finalisasi dan tanda tangan otorisasi.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="knowledge-base" class="panel section-block">
+        <div class="section-head">
+          <div>
+            <span class="section-label">Knowledge Base</span>
+            <h2>Pusat pembelajaran SOP & resources</h2>
+          </div>
+          <p>
+            Dirancang untuk membantu staf memahami SOP melalui panduan singkat,
+            video, template, dan user guide.
+          </p>
+        </div>
+        <div id="resourceGrid" class="resource-grid large"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Educourse.id SOP Digital Learning Center</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
