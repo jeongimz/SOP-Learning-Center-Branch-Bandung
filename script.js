@@ -4,7 +4,7 @@ const quickAccessItems = [
     description:
       "Nomor referensi pembayaran untuk memudahkan pencocokan transaksi dan bukti administrasi.",
     action: "Buka Form",
-    href: "https://docs.google.com/spreadsheets/d/1TDPlmaoZPdYi0ZbC5VpVik35wcVa2m-MKFbobLXCX_4/edit?usp=sharing",
+    href: "https://docs.google.com/spreadsheets/d/1hHfbXejDxS3mRmwbmEDjKgmPNb5bAfqh8XrBWx61Mvs/edit?usp=sharing",
   },
   {
     title: "Monitoring Mitra",
